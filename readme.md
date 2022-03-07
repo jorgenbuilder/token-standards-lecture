@@ -154,7 +154,7 @@ import Metadata "metadata";
 ```
 
 ```motoko
-stable var ledger : [Metadata.TokenMetadata] = [];
+stable var ledger : [Metadata.TokenMetadata] = [var];
 ```
 
 That should do it for now! For a production project, we would likely prefer a more efficient data structure, but this will do for the moment. Thanks to orthogonal persistence on the IC, this is all we need to maintain our "database" of token ownership and metadata.
