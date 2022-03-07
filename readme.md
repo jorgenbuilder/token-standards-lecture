@@ -2,6 +2,8 @@
 
 We're going to build a super simple DIP721 compliant NFT. The end result won't exactly be production ready, but we'll learn many basics and look ahead at how to become production ready.
 
+Slides: [Google Slides](https://docs.google.com/presentation/d/1NPIPg5wOrCD2KvsAW0HD8duUChb6C7cn1nd-auai3Fw/edit?usp=sharing)
+
 ## Bootstrap a new project
 
 We'll start by creating a super barebones motoko project.
